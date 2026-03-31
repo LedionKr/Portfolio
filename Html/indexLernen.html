@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta Tags geben dem Browser Informationen über die Webseite. Immer in den Head-Bereich! -->
+        <title>HTML Basics</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a meta description. It is self closing and does not have a closing tag.">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="King">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="90">
+</head>
+<body>
+    Ein HTML Element besteht aus einem Start-Tag, einem End-Tag und dem Inhalt dazwischen.
+    (Opening Tag; Content; Closing Tag)
+    <h1>Aura Washing</h1> 
+    <div>
+        <button>Click me</button>
+        <a href="https://www.youtube.com/watch?v=vY2xUc4TVmY" target="_blank">Absoluter Link</a>
+        <a href="./pages/about.html">Relativer Link</a>
+
+        <img src="./images/filters_format(webp).webp" height="150" width="400" alt="Aura">
+        <img src="./images/gProfile.jpg" height="250" width="250" alt="Aura">
+
+        <form>
+            <label for="search">Search</label>
+            <input type="text" name="search" id="search">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <div>
+        <!--HTML text formatting tags-->
+        <p>This is a paragraph.</p>
+        <p>This is a <b>bold</b> paragraph.</p>
+        <p>This is a <i>italic</i> paragraph.</p>
+        <p>This is a <big>big</big> paragraph.</p>
+        <p>This is a <small>small</small> paragraph.</p>
+        <p>This is a <sub>subscript</sub> paragraph.</p>
+        <p>This is a <sup>superscript</sup> paragraph.</p>
+        <p>This is a <ins>inserted</ins> paragraph.</p>
+        <p>This is a <del>deleted</del> paragraph.</p>
+        <p>This is a <mark>marked</mark> paragraph.</p>
+
+        <strong>This is bold text.</strong>
+        <em>This is italic text.</em>
+    </div>
+
+    <div>
+        <h4>Unordered List</h4>
+        <ul>
+            <li>Pizzateig</li>
+            <li>Tomaten</li>
+            <li>Käse</li>
+            <li>Toppings</li>
+                <ul>
+                    <li>Salami</li>
+                    <li>Sucuk</li>
+                    <li>Thunfisch</li>
+                </ul>
+        </ul>
+
+        <h4>Ordered List</h4>
+        <ol type="I">
+            <li>Aufstehen</li>
+            <li>Sport</li>
+            <li>Essen</li>
+        </ol>
+
+        <h4>Description List</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language - Struktur der Webpage</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets - Gestaltung der Webpage</dd>
+            <dt>JS</dt>
+            <dd>JavaScript - Interaktivität der Webpage</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h4>Table</h4>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Alter</th>
+                <th>Beruf</th>
+            </tr>
+            <tr>
+                <td>King</td>
+                <td>21</td>
+                <td>Millionär</td>
+            </tr>
+            <tr>
+                <td>Peach</td>
+                <td>34</td>
+                <td>Arm</td>
+            </tr>
+        </table>
+
+        <h3>Store Hours</h3>
+        <table bgcolor="black" width="700">
+            <tr bgcolor="grey">
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+                <th width="100">Sunday</th>
+            </tr>
+            <tr bgcolor="lightgrey" align="center">
+                <td>9 - 5</td>
+                <td>9 - 5</td>
+                <td>9 - 5</td>
+                <td>9 - 5</td>
+                <td>9 - 5</td>
+                <td>10 - 4</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <!--span = adds markup to text-->
+        <!--div = defines a division or section in an HTML document-->
+        <h4>Span und Div</h4>
+        <h1>Hallo!</h1>
+        <p>Dies ist ein <span style="color: red;">roter</span> Text.</p>
+        <p>Dies ist ein <span style="color: blue;">blauer</span >Text.</p>
+
+        <div style="background-color: lightblue;">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis dolorem laudantium explicabo quasi officia nisi provident? Earum commodi deleniti eligendi quasi qui pariatur iure, consequatur quo, expedita illo quas.</p>
+        </div>
+    </div>
+
+    <div>
+        <!-- iframe = Einbindung einer anderen Resource in eine HTML-Seite -->
+         <h1>iframes</h1>
+         <iframe src="./Google/index.html" width="600" height="400"></iframe>
+    </div>
+
+    <!-- Button -->
+    <div>
+        <a href="https://youtube.com" target="_blank">
+        <button style="background-color: rgb(223, 58, 58); color: rgb(247, 237, 237); border-radius: 7px;">click me</button>
+        </a>
+    </div>
+
+    <!-- JavaScript in einer HTML-Seite -->
+    <div>
+        <button onclick="doSomething()" style="background-color: royalblue; color: white; padding: 10px 20px; border-radius: 7px;">
+        </button>
+        <p id="test">Hello</p>
+
+        <script>
+            function doSomething() {
+                document.getElementById("test").innerHTML = "Button clicked!";
+            }
+        </script>
+    </div>
+
+    <!-- Formular-->
+    <div>
+        <form action="action_page.php" method="post">
+
+            <div>
+                <label for="title">Title:</label>
+
+                <label for="Mr.">Herr</label>
+                <input type="radio" id="Mr." name="title" value="Herr.">
+
+                <label for="Mrs.">Frau</label>
+                <input type="radio" id="Mrs." name="title" value="Frau.">
+
+                <label for="Dr.">Geistig</label>
+                <input type="radio" id="Dr." name="title" value="Geistiger">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="fName">first name:</label>
+                <input type="text" id="fName" name="fName" placeholder="Enter your first name" required>
+            </div>
+
+            <!-- line break-->
+            <br>
+
+            <div>
+                <label for="lName">last name:</label>
+                <input type="text" id="lName" name="lName" placeholder="Enter your last name">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass" minlength="4" maxlength="12" placeholder="Enter your password" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="mail" placeholder="Enter your email" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="0" max="99" value="1" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="sucscribe">Willst du nervige Werbung?</label>
+                <input type="checkbox" id="sucscribe" name="Sucscribe">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="reset">
+                <input type="submit">
+            </div>
+
+        </form>
+
+</body>
+</html>
