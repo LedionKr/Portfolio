@@ -19,7 +19,7 @@ Der aktuelle Schwerpunkt liegt auf statischen Websites und Übungen zu Web-Grund
 
 | Arbeit | Inhalt und Einordnung | Technik | Einstieg |
 | --- | --- | --- | --- |
-| **Aura Cleaning** | Statische Website für Fahrzeugaufbereitung mit Leistungspaketen, FAQ und Kontaktwegen. Implementierung vorhanden; offene Punkte sind dokumentiert. | HTML, CSS | [Projektbeschreibung](AuraCleaning/README.md) · [Quellcode](AuraCleaning/index.html) · [Technische Dokumentation](AuraCleaning/docs/README.md) |
+| **Aura Cleaning** | Fertige Website für Fahrzeugaufbereitung mit Leistungspaketen, FAQ und Kontaktwegen – als Projekt zum Vorstellen und Besichtigen. | HTML, CSS | [Projektbeschreibung](projects/AuraCleaning/README.md) · [Quellcode](projects/AuraCleaning/index.html) · [Technische Dokumentation](projects/AuraCleaning/docs/README.md) |
 | **Google-Layoutübung** | Nachbau einer Suchmaschinen-Oberfläche als Lernübung. Keine angebundene Suchfunktion. | HTML, CSS | [Projektbeschreibung](Html/Google/README.md) · [Quellcode](Html/Google/index.html) |
 | **Web-Grundlagen** | Lernsammlung zu HTML-Elementen, Formularen, CSS-Boxmodell und einem kleinen JavaScript-Beispiel. | HTML, CSS-Grundlagen, einzelnes JavaScript-Beispiel | [Übersicht](Html/README.md) · [HTML-Übung](Html/indexLernen.html) · [Boxmodell](Html/cssLernen.html) |
 
@@ -31,8 +31,8 @@ Für einen schnellen Einblick empfiehlt sich **Aura Cleaning**: Die Dokumentatio
 
 | Bereich | Konkreter Nachweis | Einordnung |
 | --- | --- | --- |
-| HTML | [AuraCleaning/index.html](AuraCleaning/index.html): Navigation, Inhaltsbereiche, Links und FAQ mit `details`/`summary` | Statischer Seitenaufbau |
-| CSS | [AuraCleaning/styles.css](AuraCleaning/styles.css): Custom Properties, Flexbox, Grid und Media Queries | Gestaltung mit vorgesehenen Anpassungen an Bildschirmbreiten; kein Nachweis umfassender Gerätetests |
+| HTML | [projects/AuraCleaning/index.html](projects/AuraCleaning/index.html): Navigation, Inhaltsbereiche, Links und FAQ mit `details`/`summary` | Statischer Seitenaufbau |
+| CSS | [projects/AuraCleaning/styles.css](projects/AuraCleaning/styles.css): Custom Properties, Flexbox, Grid und Media Queries | Gestaltung mit vorgesehenen Anpassungen an Bildschirmbreiten; kein Nachweis umfassender Gerätetests |
 | HTML/CSS-Lernübungen | [Html/Google](Html/Google/README.md) und [Html](Html/README.md) | Layout, Formulare und Boxmodell |
 | JavaScript | [Html/indexLernen.html](Html/indexLernen.html): `doSomething()` verändert einen Text per DOM-Zugriff | Einzelnes Grundlagenbeispiel |
 
@@ -45,22 +45,22 @@ Die vorhandenen Websites benötigen keinen Build-Schritt und keinen Paketmanager
 ```text
 .
 ├── README.md                 Einstieg und Projektübersicht
-├── AuraCleaning/             Bestehende Website mit Projekt-README
-│   ├── docs/                 Aufbau, Grenzen und nächste Schritte
-│   ├── images/               Vorhandene Bilddateien
-│   ├── index.html
-│   └── ...                   CSS und weitere HTML-Seiten
 ├── Html/                     Bestehende Lernsammlung
 │   ├── README.md
 │   ├── Google/               Layoutübung mit eigener README
 │   ├── indexLernen.html
 │   └── cssLernen.html
-├── projects/                 Einstieg für künftige Projekte
+├── projects/                 Fertige Website und weitere Projekte
+│   ├── AuraCleaning/         Fertiges Website-Projekt
+│   │   ├── docs/             Aufbau und Weiterentwicklung
+│   │   ├── images/           Vorhandene Bilddateien
+│   │   ├── index.html
+│   │   └── ...               CSS und weitere HTML-Seiten
 │   └── _vorlage/             Kopierbare README und Dokumentationsvorlagen
 └── docs/                     Repository-Dokumentation und Pflege
 ```
 
-Die bestehenden Codeordner behalten ihre Namen und Pfade. Künftige eigenständige Projekte kommen nach `projects/<projektname>/`. Die [Vorlage](projects/_vorlage/README.md) ist ausdrücklich kein umgesetztes Projekt.
+Eigenständige Projekte liegen unter `projects/<projektname>/`, beginnend mit der fertigen Website Aura Cleaning. HTML-Lernübungen bleiben separat unter `Html/`. Die [Vorlage](projects/_vorlage/README.md) ist ausdrücklich kein umgesetztes Projekt.
 
 ## Lokal ansehen
 
@@ -71,14 +71,14 @@ Die bestehenden Codeordner behalten ihre Namen und Pfade. Künftige eigenständi
    cd Portfolio
    ```
 
-2. `AuraCleaning/index.html` oder `Html/Google/index.html` im Browser öffnen. Für die Grundlagen `Html/indexLernen.html` bzw. `Html/cssLernen.html` öffnen.
+2. `projects/AuraCleaning/index.html` oder `Html/Google/index.html` im Browser öffnen. Für die Grundlagen `Html/indexLernen.html` bzw. `Html/cssLernen.html` öffnen.
 3. Optional mit installiertem Python 3 einen lokalen Webserver im Repository-Stamm starten:
 
    ```sh
    python3 -m http.server 8000 --bind 127.0.0.1
    ```
 
-   Anschließend [Aura Cleaning](http://localhost:8000/AuraCleaning/) oder die [Layoutübung](http://localhost:8000/Html/Google/) öffnen. Mit `Ctrl+C` beenden.
+   Anschließend [Aura Cleaning](http://localhost:8000/projects/AuraCleaning/) oder die [Layoutübung](http://localhost:8000/Html/Google/) öffnen. Mit `Ctrl+C` beenden.
 
 Die HTML-Ansicht auf GitHub zeigt Quellcode; sie ist keine Website-Demo. Ein geprüftes Live-Deployment ist hier nicht dokumentiert. Kontaktlinks in Aura Cleaning führen zu den im Code hinterlegten externen Diensten bzw. Telefonnummern.
 

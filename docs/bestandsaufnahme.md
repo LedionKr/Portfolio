@@ -17,7 +17,7 @@ Vor der Aufbereitung bestand die Stamm-README aus einem Titel und einem Stichpun
 
 ## Einordnung und offene Angaben
 
-- Aura Cleaning ist eine vorhandene Implementierung. Ein produktiver Betrieb, ein Auftrag, ein Teamumfang oder Geschäftsergebnisse sind anhand des Repositorys nicht belegt.
+- Aura Cleaning ist nach Bestätigung des Portfolio-Inhabers eine fertige Website zum Zeigen und Vorstellen und wird unter `projects/AuraCleaning/` als eigenständiges Projekt geführt. Ein Live-Link, ein Auftrag, ein Teamumfang oder Geschäftsergebnisse sind nicht dokumentiert.
 - Die Google-Oberfläche ist eine Lernübung. Das Suchformular hat keine angebundene Suchlogik.
 - Die übrigen HTML-Dateien sind Lernmaterial mit teilweise unvollständigen Beispielen. Sie werden nicht als abgeschlossene Anwendungen geführt.
 - Zeitraum, konkrete Eigenanteile bei übernommenen Bestandteilen sowie genutzte Tutorials oder Hilfsmittel sind noch nicht dokumentiert.
@@ -39,4 +39,6 @@ Diese Punkte stammen aus einer statischen Sichtung. Sie ersetzen keine Laufzeitp
 
 ## Strukturentscheidung
 
-Die bisherigen Ordner bleiben erhalten, damit relative Ressourcenpfade und bestehende Links stabil bleiben. `projects/` nimmt neue eigenständige Projekte auf; `_vorlage/` enthält ausschließlich Vorlagen. `docs/` bündelt die Pflege des gesamten Portfolios. Es werden keine leeren Kategorien für unbelegte Fähigkeiten oder fiktive Projekte angelegt.
+Aura Cleaning wird vollständig von `AuraCleaning/` nach `projects/AuraCleaning/` verschoben. Die oben aufgeführten Pfade beschreiben den Stand der ersten Sichtung; aktuell liegt die Website im Projektbereich. HTML, CSS und Medien bleiben inhaltlich unverändert, ihre relativen Verweise innerhalb des Projekts bleiben erhalten. Navigation und lokale Startanleitungen verwenden den neuen Pfad. Der bisherige Einstiegspfad `AuraCleaning/` entfällt.
+
+Die Lernsammlung bleibt unter `Html/`. `projects/` nimmt auch weitere eigenständige Projekte auf; `_vorlage/` enthält ausschließlich Vorlagen. `docs/` bündelt die Pflege des gesamten Portfolios.
