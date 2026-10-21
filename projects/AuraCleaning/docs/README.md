@@ -1,6 +1,6 @@
 # Aura Cleaning · Technische Dokumentation
 
-[Projekt-README](../README.md) · [Portfolio](../../README.md)
+[Projekt-README](../README.md) · [Portfolio](../../../README.md)
 
 ## Ziel und sichtbarer Ablauf
 
@@ -43,8 +43,8 @@ Dies beschreibt den vorhandenen Aufbau. Eine ursprüngliche Entscheidungsbegrün
 | Impressum und Datenschutz öffnen | Inhalte, Verweise und Ressourcen passen zum dokumentierten Stand; bekannte Fehler werden protokolliert. |
 | Externe Kontaktziele im Quellcode kontrollieren | Ziele sind korrekt zugeordnet; eine Kontaktaufnahme ist dafür nicht erforderlich. |
 
-Für tatsächliche Ergebnisse die [Prüfvorlage](../../projects/_vorlage/docs/pruefung.md) kopieren und Datum, Browser, Stand und Befunde ergänzen. Es ist keine automatisierte Testsuite im Projekt vorhanden.
+Für tatsächliche Ergebnisse die [Prüfvorlage](../../_vorlage/docs/pruefung.md) kopieren und Datum, Browser, Stand und Befunde ergänzen. Es ist keine automatisierte Testsuite im Projekt vorhanden.
 
 ## Noch zu dokumentieren
 
-Konkreter Eigenanteil, Entstehungszeitraum, verwendete Quellen und Hilfsmittel, Herkunft des Logos sowie tatsächliche Lernerkenntnisse. Eine Anleitung dazu liefert die [Reflexionsvorlage](../../projects/_vorlage/docs/reflexion.md).
+Konkreter Eigenanteil, Entstehungszeitraum, verwendete Quellen und Hilfsmittel, Herkunft des Logos sowie tatsächliche Lernerkenntnisse. Eine Anleitung dazu liefert die [Reflexionsvorlage](../../_vorlage/docs/reflexion.md).

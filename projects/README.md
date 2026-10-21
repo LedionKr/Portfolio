@@ -2,13 +2,15 @@
 
 [Zur Portfolio-Übersicht](../README.md)
 
-Hier werden künftige eigenständige Projekte abgelegt. Die vorhandenen Arbeiten sind weiterhin über ihre bisherigen Pfade erreichbar:
+Hier liegen eigenständige Projekte mit Quellcode und Dokumentation. Aura Cleaning ist eine fertige Website, die sich im Rahmen einer Bewerbung zeigen und vorstellen lässt.
 
 | Arbeit | Einordnung | Dokumentation |
 | --- | --- | --- |
-| Aura Cleaning | Vorhandene Website-Implementierung | [Projekt-README](../AuraCleaning/README.md) |
-| Google-Layoutübung | Lernübung | [Projekt-README](../Html/Google/README.md) |
-| Web-Grundlagen | Lernsammlung | [Übersicht](../Html/README.md) |
+| **Aura Cleaning** | **Fertige Website** für Fahrzeugaufbereitung mit Leistungen, FAQ und Kontaktwegen | [Projekt-README](AuraCleaning/README.md) · [Quellcode](AuraCleaning/index.html) · [Technische Dokumentation](AuraCleaning/docs/README.md) |
+
+## Ergänzende Lernübungen
+
+Die [Google-Layoutübung](../Html/Google/README.md) und die [Web-Grundlagen](../Html/README.md) bleiben im separaten Lernbereich `Html/` erreichbar.
 
 ## Neues Projekt vorbereiten
 

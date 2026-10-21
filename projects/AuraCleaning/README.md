@@ -1,14 +1,16 @@
 # Aura Cleaning
 
-**Statische Website für Fahrzeugaufbereitung**
+**Fertiges Website-Projekt · Fahrzeugaufbereitung**
 
-[Portfolio](../README.md) · [Technische Dokumentation](docs/README.md) · [Startseite als Quellcode](index.html)
+[Portfolio](../../README.md) · [Projektübersicht](../README.md) · [Technische Dokumentation](docs/README.md) · [Startseite als Quellcode](index.html)
 
 ## Kurzüberblick
 
 Die Website stellt Fahrzeugaufbereitung mit drei Leistungspaketen dar und führt über FAQ und Kontaktlinks zu einer Kontaktaufnahme. Sie verbindet einen konkreten Dienstleistungsauftritt mit einer Umsetzung in HTML und CSS.
 
-**Stand:** Implementierung vorhanden. Der Repository-Bestand belegt weder ein geprüftes Live-Deployment noch eine abgeschlossene Qualitätsprüfung. Die bisherige Stamm-README führt sie als eigene Website für Aura Cleaning; Auftrag, Zeitraum, genauer Eigenanteil und gegebenenfalls verwendete Hilfsmittel sind noch zu dokumentieren.
+**Status: Fertige Website.** Aura Cleaning ist eine eigene Website und dient im Portfolio als Projekt zum Zeigen und Vorstellen. Der umgesetzte Umfang umfasst die Präsentation der Leistungen, FAQ und Kontaktmöglichkeiten. Hinweise zur Weiterentwicklung stehen in der technischen Dokumentation.
+
+Ein Live-Link ist derzeit nicht dokumentiert. Die Website lässt sich mit der folgenden Anleitung lokal ansehen. Zeitraum, genauer Eigenanteil und gegebenenfalls verwendete Hilfsmittel können ergänzend dokumentiert werden.
 
 ## Vorhandener Umfang
 
@@ -39,7 +41,7 @@ Kein Paketmanager oder Build-Schritt erforderlich. Externe Schriftarten benötig
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Dann [http://localhost:8000/AuraCleaning/](http://localhost:8000/AuraCleaning/) öffnen. Der Server wird mit `Ctrl+C` beendet. Kontaktlinks können externe Anwendungen oder Dienste öffnen.
+Dann [http://localhost:8000/projects/AuraCleaning/](http://localhost:8000/projects/AuraCleaning/) öffnen. Der Server wird mit `Ctrl+C` beendet. Kontaktlinks können externe Anwendungen oder Dienste öffnen.
 
 ## Aufbau
 
@@ -52,8 +54,8 @@ Dann [http://localhost:8000/AuraCleaning/](http://localhost:8000/AuraCleaning/) 
 | `images/` | Vorhandenes Logo und bestehende Ressourcen |
 | `docs/` | Technischer Überblick, Prüfbedarf und nächste Schritte |
 
-## Grenzen und nächste Schritte
+## Weiterentwicklung
 
 Die [technische Dokumentation](docs/README.md) hält konkrete Befunde fest, darunter den fehlenden Stylesheet-Pfad auf der Datenschutzseite und ein fehlerhaftes Sprungziel im Impressum. Browserdarstellung, Tastaturbedienung und responsive Ansichten sind noch nicht durch ein Prüfprotokoll belegt.
 
-Als nächste Schritte bieten sich die Klärung der Platzhalter und Medienherkunft, die Korrektur der dokumentierten Verweise sowie reproduzierbare Browserprüfungen an. Eigenanteil und tatsächliche Projekterkenntnisse können anschließend mit der [Reflexionsvorlage](../projects/_vorlage/docs/reflexion.md) dokumentiert werden.
+Als nächste Schritte bieten sich die Klärung der Platzhalter und Medienherkunft, die Korrektur der dokumentierten Verweise sowie reproduzierbare Browserprüfungen an. Eigenanteil und tatsächliche Projekterkenntnisse können anschließend mit der [Reflexionsvorlage](../_vorlage/docs/reflexion.md) dokumentiert werden.
