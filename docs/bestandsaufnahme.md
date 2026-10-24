@@ -15,6 +15,14 @@ Stand der ersten Sichtung: **21. Oktober 2026**, Basis `main` bei Commit `b8802a
 
 Vor der Aufbereitung bestand die Stamm-README aus einem Titel und einem Stichpunkt. Projektbeschreibungen, Startanleitungen und Prüfnachweise waren nicht enthalten. Im gesichteten Dateibaum waren keine Build-Konfiguration, Backend-Dateien oder automatisierten Tests vorhanden.
 
+## Ergänzung: Schachprojekt am 25. Oktober 2026
+
+Unter `projects/schachprojekt/` wird eine Kopie aus `LedionKr/schachprojekt` aufgenommen, Quellstand `927b507c23fbd06a10219920ce5d41df3005ffc2`. Sie umfasst die 14 Quell-, Dokumentations-, Build- und Testdateien außerhalb von `cmake-build-debug/` und `.DS_Store`. Diese 14 Dateien werden unverändert übernommen; das Quellrepository bleibt unverändert. Erzeugte Build-Dateien, heruntergeladene Google-Test-Bestandteile innerhalb des Build-Ordners und die Systemdatei werden nicht kopiert.
+
+Das Portfolio enthält damit auch C++17-Code, Make-/CMake-Konfiguration und zwei datengetriebene Google-Test-Tests. Die Aussage über fehlende Tests im vorangehenden Abschnitt bezieht sich ausschließlich auf die erste Sichtung vom 21. Oktober.
+
+Ein direkter C++17-Build und kurze Bedienprüfungen in beiden Spielmodi waren bei der Übernahme erfolgreich. Die vollständigen Google-Test-Tests wurden nicht ausgeführt: CMake ist in der Prüfumgebung nicht vorhanden, und die übernommenen Tests verwenden absolute Datenpfade. Quelle, Startanleitung und genauer Prüfstand stehen im [Projektüberblick](../projects/schachprojekt/PORTFOLIO.md).
+
 ## Einordnung und offene Angaben
 
 - Aura Cleaning ist nach Bestätigung des Portfolio-Inhabers eine fertige Website zum Zeigen und Vorstellen und wird unter `projects/AuraCleaning/` als eigenständiges Projekt geführt. Ein Live-Link, ein Auftrag, ein Teamumfang oder Geschäftsergebnisse sind nicht dokumentiert.

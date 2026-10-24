@@ -2,11 +2,12 @@
 
 [Zur Portfolio-Übersicht](../README.md)
 
-Hier liegen eigenständige Projekte mit Quellcode und Dokumentation. Aura Cleaning ist eine fertige Website, die sich im Rahmen einer Bewerbung zeigen und vorstellen lässt.
+Hier liegen eigenständige Projekte mit Quellcode und Dokumentation: eine fertige Website und eine C++-Konsolenanwendung für Schach.
 
 | Arbeit | Einordnung | Dokumentation |
 | --- | --- | --- |
 | **Aura Cleaning** | **Fertige Website** für Fahrzeugaufbereitung mit Leistungen, FAQ und Kontaktwegen | [Projekt-README](AuraCleaning/README.md) · [Quellcode](AuraCleaning/index.html) · [Technische Dokumentation](AuraCleaning/docs/README.md) |
+| **Schachprojekt** | **C++-Konsolenanwendung** mit Standard- und Atomschach, Zugprüfung und Google-Test-Tests | [Überblick und Start](schachprojekt/PORTFOLIO.md) · [Originaldokumentation](schachprojekt/README.md) · [Quellcode](schachprojekt/main.cpp) |
 
 ## Ergänzende Lernübungen
 
