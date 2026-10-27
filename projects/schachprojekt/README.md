@@ -1,7 +1,5 @@
 # Schachspiel mit zusätzlicher Schachvariante (Atomschach)
 
-## [Video](https://cloud.uni-konstanz.de/index.php/s/yrsFdxcCYb4cSFP)
-
 ## Informationen zum Projekt
 * Das Schachbrett wird durch eine 2D-Vektorvariable repräsentiert und dargestellt. Dadurch wird
  ein Feld mit 64 Elementen ermöglicht (8x8).
@@ -10,6 +8,18 @@
 * Zu Beginn wählt man zwischen zwei Schachvarianten aus. Diese sind das Standardschach und die
   Schachvariante "Atomschach".
 * Möglich ist `move`, `capture` und `promotion`
+
+## Aufbau und Techstack
+
+| Bestandteil | Aufgabe |
+| --- | --- |
+| [main.cpp](main.cpp) | Moduswahl, Konsoleneingaben und Befehlsverarbeitung |
+| [board.h](board.h) / [board.cpp](board.cpp) | Klasse `Board`, Brettzustand, Historie, Zugausführung und Schachprüfungen |
+| [Movement/movement.h](Movement/movement.h) / [movement.cpp](Movement/movement.cpp) | Figurbewegungen, Wegprüfung und Bauernumwandlung |
+| [Test/tests.cpp](Test/tests.cpp) | Datengetriebene Tests `AtomicLegalMove.Move` und `LegalMove.Move` |
+| [Test/TestData/](Test/TestData/) | Datensätze für Atom- und Standardschach |
+| [Makefile](Makefile) / [CMakeLists.txt](CMakeLists.txt) | Build mit C++17; CMake bindet Google Test ein |
+| [Dockerfile](Dockerfile) / [formal.sh](formal.sh) | Übernommene Entwicklungsumgebung und Formatierungs-/Lint-Skript |
 
 ## Board
 Eine Implementierung des Schachbretts erfolgt über die `Board`-Klasse. Um das Schachbrett zu
@@ -142,6 +152,42 @@ Dieser Test prüft das gleiche für den Modus `Default`
 * Es wird die Methode `makeMoves` verwendet
 * Am Ende prüft man mit `ASSERT_TRUE`, ob alle Züge gultig waren
 
+
+## Lokal bauen und starten
+
+### Mit Make
+
+Voraussetzungen: Make und ein als `g++` erreichbarer C++17-Compiler. Vom Portfolio-Stamm aus:
+
+```sh
+cd projects/schachprojekt
+make
+./projectChess
+```
+
+### Direkt mit einem C++17-Compiler
+
+Alternativ im Projektordner, beispielsweise mit Clang:
+
+```sh
+clang++ -std=c++17 -Wall -Wextra -Wpedantic main.cpp board.cpp Movement/movement.cpp -o projectChess
+./projectChess
+```
+
+Für diese Anwendung ist Google Test nicht erforderlich. Beim Start genau `Default` oder `Atomchess` eingeben. Anschließend können beispielsweise diese Befehle verwendet werden:
+
+```text
+MPa2a4
+undo
+```
+
+Der erste Befehl bewegt den weißen Bauern von a2 nach a4; `undo` nimmt diesen Zug zurück. Mit `Ctrl+D` unter macOS/Linux die Eingabe beenden, alternativ mit `Ctrl+C` abbrechen.
+
+Weitere Befehle sind `FNb1` zur Anzeige möglicher Springerzüge und der Brettimport mit `B` direkt vor der Stellung, beispielsweise:
+
+```text
+Brnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - - 0 1
+```
 
 
 

@@ -6,15 +6,10 @@ Hier liegen eigenständige Projekte mit Quellcode und Dokumentation: eine fertig
 
 | Arbeit | Einordnung | Dokumentation |
 | --- | --- | --- |
-| **Aura Cleaning** | **Fertige Website** für Fahrzeugaufbereitung mit Leistungen, FAQ und Kontaktwegen | [Projekt-README](AuraCleaning/README.md) · [Quellcode](AuraCleaning/index.html) · [Technische Dokumentation](AuraCleaning/docs/README.md) |
+| **Aura Cleaning** | **Fertige Website** für Fahrzeugaufbereitung mit Leistungen, FAQ und Kontaktwegen | [Projekt-README](AuraCleaning/README.md) · [Quellcode](AuraCleaning/index.html) |
 | **Schachprojekt** | **C++-Konsolenanwendung** mit Standard- und Atomschach, Zugprüfung und Google-Test-Tests | [Überblick und Start](schachprojekt/PORTFOLIO.md) · [Originaldokumentation](schachprojekt/README.md) · [Quellcode](schachprojekt/main.cpp) |
-
-## Ergänzende Lernübungen
-
-Die [Google-Layoutübung](../Html/Google/README.md) und die [Web-Grundlagen](../Html/README.md) bleiben im separaten Lernbereich `Html/` erreichbar.
+| **Google Layout** | Statische Layoutübung mit HTML und CSS | [Projekt-README](Google/README.md) · [Quellcode](index.html) |
 
 ## Neues Projekt vorbereiten
 
-Den Ordner [`_vorlage/`](_vorlage/README.md) nach `projects/<projektname>/` kopieren. Er enthält eine Projekt-README und Vorlagen für Konzept, Prüfung und Reflexion. Die Vorlage selbst ist keine Projektreferenz.
-
-Quellcode und weitere Ordner entstehen nach dem tatsächlichen Bedarf des Projekts. Den vollständigen Ablauf beschreibt der [Pflegeleitfaden](../docs/pflege.md).
+Den Ordner [`_vorlage/`](_vorlage/README.md) nach `projects/<projektname>/` kopieren. Die Vorlage selbst ist keine Projektreferenz.
