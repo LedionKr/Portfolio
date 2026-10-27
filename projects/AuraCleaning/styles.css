@@ -35,6 +35,9 @@ html {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: var(--font-body);
     background-color: var(--bg);
     color: var(--text);
@@ -606,6 +609,7 @@ ul {
 
 /* ─── Footer ─── */
 .footer {
+    margin-top: auto;
     background: var(--bg-2);
     border-top: 0.125rem solid var(--border);
     padding: 4rem 2rem 2rem;

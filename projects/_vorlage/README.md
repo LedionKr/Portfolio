@@ -1,24 +1,19 @@
 # [Projektname]
 
-> **Vorlage — kein umgesetztes Projekt.** Diesen Ordner vor der Nutzung kopieren und alle Angaben durch nachprüfbare Inhalte ersetzen. Nicht zutreffende Abschnitte entfernen. Links gelten für ein Projekt direkt unter `projects/`.
+> **Vorlage — kein umgesetztes Projekt.** Diesen Ordner nur kopieren und alle Angaben durch durch andere Inhalte ersetzen. Nicht zutreffende Abschnitte entfernen. Links gelten für ein Projekt direkt unter `projects/`.
 
-[Projektübersicht](../README.md) · [Portfolio](../../README.md)
+[Projektübersicht](../README.md) - [Portfolio](../../README.md)
 
 ## Kurzüberblick
 
-[In zwei bis drei Sätzen: Welches Problem wird für wen bearbeitet und was liegt tatsächlich vor?]
+[In zwei bis drei Sätzen]
 
 | Merkmal | Angabe |
 | --- | --- |
 | Status | [Geplant / In Arbeit / Implementierung vorhanden / Abgeschlossen im beschriebenen Umfang / Lernübung] |
 | Kontext | [Eigenprojekt, Hochschularbeit oder anderer bestätigter Kontext] |
 | Zeitraum und Stand | [Tatsächlicher Zeitraum; Datum des dokumentierten Standes] |
-| Eigenanteil | [Selbst bearbeitete Aufgaben; bei Teamarbeit klare Abgrenzung] |
 | Ergebnis | [Nachweisbares Ergebnis oder „Noch kein Ergebnis dokumentiert“] |
-
-## Problem und Ziel
-
-[Ausgangslage, Zielgruppe, fachlicher Nutzen und prüfbare Zielkriterien beschreiben. Erwarteten Nutzen von gemessenen Ergebnissen unterscheiden.]
 
 ## Funktionsumfang
 
@@ -50,20 +45,6 @@
 
 [Tatsächliche Ordner und Verantwortlichkeiten beschreiben. Wesentliche Entscheidung mit Begründung und Folgen zusammenfassen.]
 
-Weitere Details: [Konzept und Entscheidungen](docs/konzept.md).
-
 ## Prüfung und Grenzen
 
 [Ausgeführte Befehle oder manuelle Prüfschritte mit Ergebnis zusammenfassen. Nicht geprüfte Eigenschaften ausdrücklich benennen.]
-
-Prüfprotokoll: [Prüfung](docs/pruefung.md).
-
-## Eigenanteil, Quellen und Hilfsmittel
-
-[Eigene Arbeit, Teambeiträge, übernommene Beispiele, Tutorials, Bibliotheken, Medien und gegebenenfalls KI-Unterstützung konkret zuordnen. Quellen und Nutzungshinweise ergänzen.]
-
-## Reflexion und nächste Schritte
-
-[Was wurde tatsächlich gelernt? Was ist noch offen? Nächste Schritte nach Nutzen priorisieren.]
-
-Ausführliche [Reflexion](docs/reflexion.md).

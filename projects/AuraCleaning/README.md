@@ -1,6 +1,6 @@
 # Aura Cleaning
 
-**Fertiges Website-Projekt · Fahrzeugaufbereitung**
+**Fertiges Website-Projekt - Fahrzeugaufbereitung**
 
 [Portfolio](../../README.md) · [Projektübersicht](../README.md) · [Technische Dokumentation](docs/README.md) · [Startseite als Quellcode](index.html)
 
@@ -35,13 +35,7 @@ Kein Paketmanager oder Build-Schritt erforderlich. Externe Schriftarten benötig
 
 ## Lokal ansehen
 
-`index.html` in diesem Ordner im Browser öffnen. Alternativ im Repository-Stamm mit installiertem Python 3:
-
-```sh
-python3 -m http.server 8000 --bind 127.0.0.1
-```
-
-Dann [http://localhost:8000/projects/AuraCleaning/](http://localhost:8000/projects/AuraCleaning/) öffnen. Der Server wird mit `Ctrl+C` beendet. Kontaktlinks können externe Anwendungen oder Dienste öffnen.
+`index.html` in diesem Ordner im Browser öffnen.
 
 ## Aufbau
 
@@ -52,10 +46,3 @@ Dann [http://localhost:8000/projects/AuraCleaning/](http://localhost:8000/projec
 | `impressum.html`, `datenschutz.html` | Vorhandene Inhaltsseiten mit noch offenen Angaben |
 | `rechtlich.css` | Vorhandene, leere Datei |
 | `images/` | Vorhandenes Logo und bestehende Ressourcen |
-| `docs/` | Technischer Überblick, Prüfbedarf und nächste Schritte |
-
-## Weiterentwicklung
-
-Die [technische Dokumentation](docs/README.md) hält konkrete Befunde fest, darunter den fehlenden Stylesheet-Pfad auf der Datenschutzseite und ein fehlerhaftes Sprungziel im Impressum. Browserdarstellung, Tastaturbedienung und responsive Ansichten sind noch nicht durch ein Prüfprotokoll belegt.
-
-Als nächste Schritte bieten sich die Klärung der Platzhalter und Medienherkunft, die Korrektur der dokumentierten Verweise sowie reproduzierbare Browserprüfungen an. Eigenanteil und tatsächliche Projekterkenntnisse können anschließend mit der [Reflexionsvorlage](../_vorlage/docs/reflexion.md) dokumentiert werden.
