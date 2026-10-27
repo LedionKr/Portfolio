@@ -8,7 +8,6 @@ Dieses Repository gibt Einblick in meine bisherigen Arbeiten mit Quellcode und n
 
 - [Projektübersicht](#projektübersicht)
 - [Repository-Struktur](#repository-struktur)
-- [Lokal ansehen](#lokal-ansehen)
 - [GitHub-Profil](https://github.com/LedionKr)
 
 ## Projektübersicht
@@ -26,17 +25,3 @@ Projekte liegen unter `projects/<projektname>/`
 Die [Vorlage](projects/_vorlage/README.md) ist ausdrücklich kein umgesetztes Projekt.
 
 Die HTML-Ansicht auf GitHub zeigt Quellcode. Sie ist keine Website-Demo.
-
-## Lokal ansehen
-
-### Schachprojekt starten
-
-Mit einem C++17-fähigen Compiler und Make im Repository-Stamm:
-
-```sh
-cd projects/schachprojekt
-make
-./projectChess
-```
-
-Beim Start `Default` oder `Atomchess` wählen. Bedienbeispiele, eine Build-Alternative und Hinweise zu den Tests stehen im [Projektüberblick](projects/schachprojekt/PORTFOLIO.md).

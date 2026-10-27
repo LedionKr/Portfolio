@@ -7,8 +7,8 @@ Hier liegen eigenständige Projekte mit Quellcode und Dokumentation: eine fertig
 | Arbeit | Einordnung | Dokumentation |
 | --- | --- | --- |
 | **Aura Cleaning** | **Fertige Website** für Fahrzeugaufbereitung mit Leistungen, FAQ und Kontaktwegen | [Projekt-README](AuraCleaning/README.md) · [Quellcode](AuraCleaning/index.html) |
-| **Schachprojekt** | **C++-Konsolenanwendung** mit Standard- und Atomschach, Zugprüfung und Google-Test-Tests | [Überblick und Start](schachprojekt/PORTFOLIO.md) · [Originaldokumentation](schachprojekt/README.md) · [Quellcode](schachprojekt/main.cpp) |
-| **Google Layout** | Statische Layoutübung mit HTML und CSS | [Projekt-README](Google/README.md) · [Quellcode](index.html) |
+| **Schachprojekt** | **C++-Konsolenanwendung** mit Standard- und Atomschach, Zugprüfung und Google-Test-Tests | [Projekt-README](schachprojekt/README.md) · [Quellcode](schachprojekt/main.cpp) |
+| **Google Layout** | Statische Layoutübung mit HTML und CSS | [Projekt-README](Html/Google/README.md) · [Quellcode](Html/Google/index.html) |
 
 ## Neues Projekt vorbereiten
 
